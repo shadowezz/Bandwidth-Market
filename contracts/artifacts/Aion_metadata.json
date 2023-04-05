@@ -1,0 +1,124 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "blocknumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "gaslimit",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "gasprice",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bool",
+						"name": "schedType",
+						"type": "bool"
+					}
+				],
+				"name": "ScheduleCall",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "serviceFee",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DefiV4.sol": "Aion"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DefiV4.sol": {
+			"keccak256": "0x4417183a8a6177ab733eb42782b47bce25ecd665caa62742b3d46574978a4fb6",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://49f4cf01691812bab253ddd74aa56a3d7215195d047bda0c268de83283b1c346",
+				"dweb:/ipfs/QmRh6o5LXowzKJtGv2D3foaysHJtYyFcqu67VBnGJvxodt"
+			]
+		},
+		"abdk-libraries-solidity/ABDKMath64x64.sol": {
+			"keccak256": "0x089b21db72314836305ba36b1773c3f0c2d5ac3a0f418820557c17c0e57c3c50",
+			"license": "BSD-4-Clause",
+			"urls": [
+				"bzz-raw://730ce8d750b0a6588f0d0724ace1c4d6dd90cf6dc0d2805b775b065fce147dfa",
+				"dweb:/ipfs/Qmdx7xRKvhXu1JtAVs25bER3LN2oGj2ZjW8jEvJpzQyXhc"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0x60b0215121bf25612a6739fb2f1ec35f31ee82e4a8216c032c8243d904ab3aa9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6e29880d33dd479bb046ba306993d26ccb779a4b1d94a046cb3567f22948bb4d",
+				"dweb:/ipfs/QmfTY1qzPt5C63Wc7y6JqfZr5899NRvXYdCpyLzR5FXQic"
+			]
+		}
+	},
+	"version": 1
+}

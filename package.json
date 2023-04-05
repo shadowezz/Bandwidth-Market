@@ -1,0 +1,17 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "hardhat": "^2.10.2"
+  },
+  "dependencies": {
+    "@appliedblockchain/chainlink-plugins-fund-link": "^0.0.3",
+    "@chainlink/contracts": "^0.4.2",
+    "@openzeppelin/contracts": "^4.8.1",
+    "abdk-libraries-solidity": "^3.1.0",
+    "dotenv": "^16.0.1",
+    "hardhat-deploy": "^0.11.12",
+    "mongoose": "^6.7.0",
+    "web3": "^1.8.0"
+  }
+}
